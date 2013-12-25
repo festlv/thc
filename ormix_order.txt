@@ -1,0 +1,21 @@
+12058 - 2 gab (signālu relejs)
+21557 - 2 gab (PTC drošinātājs)
+10848 - 2 gab (7805)
+13293 - 4 gab (6n136 optocoupleris)
+12642 - 2 gab (LM358N opamps)
+12939 - 6 gab (DIP8 korpuss)
+12937 - 2 gab (DIP14 korpuss)
+13061 - 2 gab (DIP16 korpuss)
+15472 - 2 gab (74HC04 inverteris)
+12434 - 2 gab (100K pocis)
+22151 - 2 gab (5.1V zeners, 5W)
+23767 - 1 gab (bar. bloks 12V 1A)
+16556 - 2 gab (LM335 temp sens)
+13149 - 1 gab (DSUB-9 ligzda)
+13228 - 1 gab (DSUB-25 ligzda)
+19602 - 1 gab (USB type B ligzda)
+14786 - 1 gab (DC ligzda)
+12956 - 4 gab (terminālbloki)
+
+
+no ofisa: 1n4007, optroni, DIP 14 korpusi
