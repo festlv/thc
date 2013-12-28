@@ -1,13 +1,5 @@
-update=Sat 28 Dec 2013 03:06:48 PM EET
-version=1
+update=Sat 28 Dec 2013 07:56:42 PM EET
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -47,15 +39,20 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=doors
+LibName31=/home/reinis/projects/thc/doors
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=sensor_board.net
 UseCmpFile=1
-PadDrill="    1.100000"
-PadDrillOvalY="    1.100000"
-PadSizeH="    2.500000"
-PadSizeV="    2.500000"
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
