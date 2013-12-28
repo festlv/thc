@@ -1,0 +1,202 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:doors
+LIBS:thc-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "26 dec 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BRIDGE D?
+U 1 1 52BB779F
+P 2800 1900
+F 0 "D?" H 2800 1950 70  0000 C CNN
+F 1 "BRIDGE" H 2800 1850 70  0000 C CNN
+F 2 "~" H 2800 1900 60  0000 C CNN
+F 3 "RS207" H 2800 1900 60  0000 C CNN
+	1    2800 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 52BB77A5
+P 1450 1900
+F 0 "P?" H 1530 1900 40  0000 L CNN
+F 1 "CONN_1" H 1450 1955 30  0001 C CNN
+F 2 "~" H 1450 1900 60  0000 C CNN
+F 3 "~" H 1450 1900 60  0000 C CNN
+	1    1450 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 1900 1950 1900
+$Comp
+L CONN_1 P?
+U 1 1 52BB77AC
+P 1400 3100
+F 0 "P?" H 1480 3100 40  0000 L CNN
+F 1 "CONN_1" H 1400 3155 30  0001 C CNN
+F 2 "~" H 1400 3100 60  0000 C CNN
+F 3 "~" H 1400 3100 60  0000 C CNN
+	1    1400 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 3100 3650 3100
+Wire Wire Line
+	3650 3100 3650 1900
+$Comp
+L R R?
+U 1 1 52BB77BB
+P 5300 1300
+F 0 "R?" V 5380 1300 40  0000 C CNN
+F 1 "79K" V 5307 1301 40  0000 C CNN
+F 2 "~" V 5230 1300 30  0000 C CNN
+F 3 "~" H 5300 1300 30  0000 C CNN
+	1    5300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52BB77C8
+P 5300 2000
+F 0 "R?" V 5380 2000 40  0000 C CNN
+F 1 "1K" V 5307 2001 40  0000 C CNN
+F 2 "~" V 5230 2000 30  0000 C CNN
+F 3 "~" H 5300 2000 30  0000 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1550 5300 1750
+Wire Wire Line
+	5300 2250 5300 2750
+Wire Wire Line
+	2800 2750 6150 2750
+Wire Wire Line
+	2800 1050 5300 1050
+Wire Wire Line
+	5300 1650 7850 1650
+Connection ~ 5300 1650
+$Comp
+L GND #PWR?
+U 1 1 52BB77E9
+P 6000 2950
+F 0 "#PWR?" H 6000 2950 30  0001 C CNN
+F 1 "GND" H 6000 2880 30  0001 C CNN
+F 2 "" H 6000 2950 60  0000 C CNN
+F 3 "" H 6000 2950 60  0000 C CNN
+	1    6000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2750 6000 2950
+Connection ~ 5300 2750
+$Comp
+L R R?
+U 1 1 52BB7833
+P 8100 1650
+F 0 "R?" V 8180 1650 40  0000 C CNN
+F 1 "100R" V 8107 1651 40  0000 C CNN
+F 2 "~" V 8030 1650 30  0000 C CNN
+F 3 "~" H 8100 1650 30  0000 C CNN
+	1    8100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 52BB7839
+P 8600 1850
+F 0 "C?" H 8600 1950 40  0000 L CNN
+F 1 "10uF" H 8606 1765 40  0000 L CNN
+F 2 "~" H 8638 1700 30  0000 C CNN
+F 3 "~" H 8600 1850 60  0000 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1650 9650 1650
+$Comp
+L GND #PWR?
+U 1 1 52BB7842
+P 8600 2200
+F 0 "#PWR?" H 8600 2200 30  0001 C CNN
+F 1 "GND" H 8600 2130 30  0001 C CNN
+F 2 "" H 8600 2200 60  0000 C CNN
+F 3 "" H 8600 2200 60  0000 C CNN
+	1    8600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2050 8600 2200
+Connection ~ 8600 2100
+Wire Notes Line
+	7350 1400 9200 1400
+Wire Notes Line
+	9200 1400 9200 2500
+Wire Notes Line
+	9200 2500 7350 2500
+Wire Notes Line
+	7350 2500 7350 1400
+Text Notes 7400 2450 0    60   ~ 0
+low pass filtrs, cutoff @ 100Hz
+Connection ~ 8600 1650
+Text Label 9250 1650 0    60   ~ 0
+FILT_SIG
+$Comp
+L TVS D?
+U 1 1 52BB78CF
+P 6150 2200
+F 0 "D?" H 6600 2450 60  0000 C CNN
+F 1 "TVS" H 6550 2050 60  0000 C CNN
+F 2 "" H 6150 2200 60  0000 C CNN
+F 3 "1.5KE7.5A" H 6150 2200 60  0000 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1700 6150 1650
+Connection ~ 6150 1650
+Wire Wire Line
+	6150 2750 6150 2700
+Connection ~ 6000 2750
+$EndSCHEMATC

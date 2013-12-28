@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: sestdiena, 2013. gada 30. novembris, plkst. 15 un 50
+EESchema-LIBRARY Version 2.3  Date: ceturtdiena, 2013. gada 26. decembris, plkst. 02 un 30
 #encoding utf-8
 #
 # ARDUINO_MINI_PRO
@@ -80,6 +80,21 @@ X LED ~ 600 150 300 L 50 50 1 1 O
 X RX ~ -650 50 300 R 50 50 1 1 O
 X TX ~ 600 250 300 L 50 50 1 1 O
 X VCC ~ -650 400 300 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# TVS
+#
+DEF TVS D 0 40 Y Y 1 F N
+F0 "D" 450 250 60 H V C CNN
+F1 "TVS" 400 -150 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 20  -150 0  150 0 N
+P 6 0 1 0  0 0  -150 200  150 200  -150 -200  150 -200  0 0 N
+X ~ ~ 0 -500 300 U 50 50 1 1 I
+X ~ ~ 0 500 300 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

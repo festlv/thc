@@ -4,7 +4,6 @@
 13293 - 4 gab (6n136 optocoupleris)
 12642 - 2 gab (LM358N opamps)
 12939 - 6 gab (DIP8 korpuss)
-12937 - 2 gab (DIP14 korpuss)
 13061 - 2 gab (DIP16 korpuss)
 15472 - 2 gab (74HC04 inverteris)
 12434 - 2 gab (100K pocis)
@@ -16,6 +15,17 @@
 19602 - 1 gab (USB type B ligzda)
 14786 - 1 gab (DC ligzda)
 12956 - 4 gab (terminālbloki)
+14923 - 2 gab (TVS diode)
+12673 - 2 gab (diožu tiltiņš)
+21309 - 2 gab (DC-DC konverteri)
+12812 - 1 gab (drošinātāju turētājs)
+
+no ofisa: 1n4007, optroni
+
+No Argus: 
+AX05W_56K , 
+AX05W_22K, 
+AX05W_1K x 2
+CFST_1.25A - 2 gab
 
 
-no ofisa: 1n4007, optroni, DIP 14 korpusi
