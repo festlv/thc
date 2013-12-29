@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:doors
+LIBS:thc-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
@@ -44,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_2 P2
-U 1 1 52BA21A7
-P 5550 1050
-F 0 "P2" V 5500 1050 40  0000 C CNN
-F 1 "PWR" V 5600 1050 40  0000 C CNN
-F 2 "~" H 5550 1050 60  0000 C CNN
-F 3 "~" H 5550 1050 60  0000 C CNN
-	1    5550 1050
-	-1   0    0    1   
-$EndComp
 $Comp
 L +12V #PWR12
 U 1 1 52BA21CE
@@ -322,7 +312,7 @@ F 3 "~" H 6250 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 950  6000 950 
+	5500 950  6000 950 
 $Comp
 L DIODE D2
 U 1 1 52BA359D
@@ -336,7 +326,7 @@ F 3 "~" H 6900 1150 60  0000 C CNN
 $EndComp
 Connection ~ 6900 950 
 Wire Wire Line
-	5900 1150 6550 1150
+	5500 1150 6550 1150
 Wire Wire Line
 	6550 1150 6550 1350
 Connection ~ 6900 1350
@@ -481,4 +471,53 @@ U 52BF21D2
 F0 "Isolation" 50
 F1 "thc_isolation.sch" 50
 $EndSheet
+Wire Wire Line
+	4750 3350 4150 3350
+Text Label 4150 3350 0    60   ~ 0
+I_THC_INP1
+Wire Wire Line
+	4750 3450 4150 3450
+Text Label 4150 3450 0    60   ~ 0
+I_THC_INP2
+Wire Wire Line
+	4750 3550 4150 3550
+Text Label 4150 3550 0    60   ~ 0
+I_THC_INP3
+Wire Wire Line
+	4750 3650 4150 3650
+Text Label 4150 3650 0    60   ~ 0
+I_THC_INP4
+Wire Wire Line
+	4750 3750 4150 3750
+Text Label 4150 3750 0    60   ~ 0
+I_THC_OUT1
+Wire Wire Line
+	4750 3850 4150 3850
+Text Label 4150 3850 0    60   ~ 0
+I_THC_OUT2
+Wire Wire Line
+	4750 3950 4150 3950
+Text Label 4150 3950 0    60   ~ 0
+I_THC_OUT3
+Wire Wire Line
+	4750 4050 4150 4050
+Text Label 4150 4050 0    60   ~ 0
+I_THC_OUT4
+Wire Wire Line
+	4750 4150 4150 4150
+Text Label 4150 4150 0    60   ~ 0
+I_THC_OUT5
+$Comp
+L BARREL_JACK CON1
+U 1 1 52BF7646
+P 5200 1050
+F 0 "CON1" H 5200 1300 60  0000 C CNN
+F 1 "BARREL_JACK" H 5200 850 60  0000 C CNN
+F 2 "~" H 5200 1050 60  0000 C CNN
+F 3 "~" H 5200 1050 60  0000 C CNN
+	1    5200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1050 5500 1150
 $EndSCHEMATC

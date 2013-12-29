@@ -1,0 +1,283 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = svētdiena, 2013. gada 29. decembris, plkst. 00 un 53
+
+BeginCmp
+TimeStamp = /52BA304D;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5647;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA2306;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA232D;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA2639;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF2B27;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF2ABC;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF7646;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA3950;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA359D;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA3520;
+Reference = F1;
+ValeurCmp = PTC 1.1A 30V;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF50D2;
+Reference = IC1;
+ValeurCmp = 4N25;
+IdModule  = DIP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1F61;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF21EC;
+Reference = J2;
+ValeurCmp = DB25;
+IdModule  = DB25FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3F30;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3F36;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA3933;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3F3C;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3F42;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF52A8;
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3A69;
+Reference = R7;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3AB4;
+Reference = R8;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3ABA;
+Reference = R9;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF6D8A;
+Reference = R10;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3AC0;
+Reference = R11;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5F3B;
+Reference = R12;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5E01;
+Reference = R13;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5BA4;
+Reference = R14;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5CCF;
+Reference = R15;
+ValeurCmp = 200R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF63B7;
+Reference = R16;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF63BD;
+Reference = R17;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF63D7;
+Reference = R18;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF63DD;
+Reference = R19;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA2FB7;
+Reference = U1;
+ValeurCmp = LM358N;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA2222;
+Reference = U2;
+ValeurCmp = ARDUINO_MINI_PRO;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF3A48;
+Reference = U3;
+ValeurCmp = CNY74-4;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA25D0;
+Reference = U4;
+ValeurCmp = 7805;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF2979;
+Reference = U5;
+ValeurCmp = ISOL_PWR;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF558D;
+Reference = U6;
+ValeurCmp = LM324N;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF21D2/52BF5B9E;
+Reference = U7;
+ValeurCmp = CNY74-4;
+IdModule  = DIP-16__300;
+EndCmp
+
+EndListe
