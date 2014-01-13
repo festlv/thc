@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 29 Dec 2013 11:51:15 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 10 Jan 2014 12:28:48 PM EET
 
 BeginCmp
 TimeStamp = /52BA304D;
@@ -176,6 +176,13 @@ IdModule  = DB25FC;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CFCB95;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
 TimeStamp = /52BF21D2/52BF3F30;
 Reference = R1;
 ValeurCmp = 1K;
@@ -316,9 +323,23 @@ IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BFE7BF;
+TimeStamp = /52CFCBA2;
 Reference = R21;
-ValeurCmp = 100R;
+ValeurCmp = 1K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CFCCB0;
+Reference = R22;
+ValeurCmp = 10K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CFCEC1;
+Reference = R23;
+ValeurCmp = 1K;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
@@ -358,9 +379,9 @@ IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BF21D2/52BF558D;
+TimeStamp = /52BF21D2/52C96612;
 Reference = U6;
-ValeurCmp = LM324N;
+ValeurCmp = 74HC04;
 IdModule  = DIP-14__300;
 EndCmp
 

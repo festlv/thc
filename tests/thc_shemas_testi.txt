@@ -1,0 +1,26 @@
+13.01.2013
+
+Testēju power daļu. Vin = 12V. Pēc LM7085 - 4.96V. Pēc optiski atdalītā barošanas bloka,
+bez slodzes = 6.4V. Zem slodzes vēl netiek testēts.
+
+*Analogās ieejas daļa*
+1) 20K potenciometrs tiek pievienots starp zemi un +5V. Vidējā kāja pie FILT_SIG.
+FILT_SIG vērtība: 2.05V. AMP_SIG vērtība: 2.05V
+FILT_SIG vērtība: 4.96V. AMP_SIG vertība: 4.96V
+
+TEST OK
+
+* Torch ON signāls *
+1) Pie torch on izejas tiek pieslēgta LED ar virknes rezistoru. Tiek simulēti +5V MCU ligzdas 5. pinā.
+Rezultāts: LED iedegas.
+
+TEST OK
+
+* Arc OK signāls * 
+
+Starp Arc OK un 12V tiek pielikts NO slēdzis.
+Slēdzis atlaists, ARC_OK stāvoklis = 5V
+Slēdzis nospiests, ARC_OK stavoklis = 0V
+
+TEST OK
+
