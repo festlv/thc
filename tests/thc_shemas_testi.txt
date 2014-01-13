@@ -24,3 +24,6 @@ Slēdzis nospiests, ARC_OK stavoklis = 0V
 
 TEST OK
 
+* U3 testi (MCU izejas, PC ieejas)
+
+TEST OK
