@@ -3,3 +3,4 @@
 *.bck
 *-bak
 _autosave-*
+mcu/.build/
