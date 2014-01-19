@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "28 dec 2013"
+Date "19 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -334,17 +334,6 @@ F 3 "~" H 2950 6450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3050 5850 3050 6250
-$Comp
-L +5V #PWR02
-U 1 1 52BEC453
-P 3050 4300
-F 0 "#PWR02" H 3050 4390 20  0001 C CNN
-F 1 "+5V" H 3050 4390 30  0000 C CNN
-F 2 "" H 3050 4300 60  0000 C CNN
-F 3 "" H 3050 4300 60  0000 C CNN
-	1    3050 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 4300 3050 4750
 $Comp
@@ -479,17 +468,6 @@ Wire Wire Line
 	6600 5550 7050 5550
 Text Label 6650 5550 0    60   ~ 0
 ARC_OK
-$Comp
-L +5V #PWR06
-U 1 1 52BEC92F
-P 8250 4550
-F 0 "#PWR06" H 8250 4640 20  0001 C CNN
-F 1 "+5V" H 8250 4640 30  0000 C CNN
-F 2 "" H 8250 4550 60  0000 C CNN
-F 3 "" H 8250 4550 60  0000 C CNN
-	1    8250 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 4450 8150 5500
 $Comp
@@ -589,8 +567,15 @@ Wire Wire Line
 	8450 5600 8450 6300
 Wire Wire Line
 	9100 5800 8550 5800
-Wire Wire Line
-	9100 5700 8250 5700
-Wire Wire Line
-	8250 5700 8250 4550
+$Comp
+L +12V #PWR?
+U 1 1 52DBE565
+P 3050 4300
+F 0 "#PWR?" H 3050 4250 20  0001 C CNN
+F 1 "+12V" H 3050 4400 30  0000 C CNN
+F 2 "" H 3050 4300 60  0000 C CNN
+F 3 "" H 3050 4300 60  0000 C CNN
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
