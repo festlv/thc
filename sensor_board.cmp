@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 28 Dec 2013 03:24:06 PM EET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = svētdiena, 2014. gada  2. februāris, plkst. 22 un 46
 
 BeginCmp
-TimeStamp = /52BEC224;
+TimeStamp = /52EE9E93;
 Reference = C1;
 ValeurCmp = 10uF;
 IdModule  = C2V10;
@@ -31,14 +31,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52BEC020;
 Reference = D4;
-ValeurCmp = TVS;
+ValeurCmp = 400V 1.5kW TVS;
 IdModule  = D6;
 EndCmp
 
 BeginCmp
 TimeStamp = /52BEC1B7;
 Reference = D5;
-ValeurCmp = ZENER;
+ValeurCmp = 5v1 ZENER;
 IdModule  = D6;
 EndCmp
 
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52BEC043;
 Reference = F1;
-ValeurCmp = FUSE;
+ValeurCmp = 200mA;
 IdModule  = ROUND_FUSE_HOLDER;
 EndCmp
 
@@ -87,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52BEC878;
 Reference = P4;
-ValeurCmp = TORCH_ON;
+ValeurCmp = ARC_OK;
 IdModule  = SCREW_TERM_2;
 EndCmp
 
@@ -99,10 +99,10 @@ IdModule  = TEST_POINT_2PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BEC41E;
+TimeStamp = /52EEAEB7;
 Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = TO220_VERT;
+ValeurCmp = BC547;
+IdModule  = TO92-CBE;
 EndCmp
 
 BeginCmp
@@ -115,7 +115,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52BEC5FE;
 Reference = R1;
-ValeurCmp = 1K;
+ValeurCmp = 3K3;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
@@ -134,37 +134,9 @@ IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BEC0B5;
-Reference = R4;
-ValeurCmp = 22K;
-IdModule  = R_5W_AXIAL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BEC0CC;
-Reference = R5;
-ValeurCmp = 22K;
-IdModule  = R_5W_AXIAL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BEC0D2;
-Reference = R6;
-ValeurCmp = 22K;
-IdModule  = R_5W_AXIAL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BEC0D8;
-Reference = R7;
-ValeurCmp = 12K;
-IdModule  = R_5W_AXIAL;
-EndCmp
-
-BeginCmp
 TimeStamp = /52BEC0DE;
 Reference = R8;
-ValeurCmp = 1K;
+ValeurCmp = 39K;
 IdModule  = R_5W_AXIAL;
 EndCmp
 
@@ -173,13 +145,6 @@ TimeStamp = /52BEC162;
 Reference = R9;
 ValeurCmp = 1K;
 IdModule  = R_5W_AXIAL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BEC192;
-Reference = R10;
-ValeurCmp = 2R;
-IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
