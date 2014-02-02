@@ -1,4 +1,4 @@
-update=Sun 05 Jan 2014 03:55:59 PM EET
+update=sestdiena, 2014. gada  1. februāris, plkst. 23 un 52
 version=1
 last_client=eeschema
 [cvpcb]

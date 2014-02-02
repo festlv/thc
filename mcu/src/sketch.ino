@@ -1,13 +1,18 @@
+#include <Timer.h>
+
 #include "config.h"
 #include <plasma.h>
-
 #include <pc.h>
+
+Timer t;
 
 void setup()
 {
     Serial.begin(57600);
     plasma_init();
     pc_init();
+
+    t.every(250, pc_update_flag);
 }
 unsigned long next_millis = 0;
 
@@ -15,7 +20,6 @@ void loop()
 {
     static unsigned long ul_tmp;
     static float f_tmp;
-
     plasma_step();
     pc_step();
 
@@ -42,5 +46,6 @@ void loop()
         pc_print_io_status();
     }
 #endif 
-
+    
+    t.update();
 }

@@ -12,8 +12,10 @@
 #define PC_INP_3 6
 #define PC_INP_4 7
 
-#define PC_CP_INPUT PC_INP_1
-#define PC_TORCH_ON_INPUT PC_INP_2
+#define PC_CP_INPUT PC_INP_4
+
+#define PC_PCINT_PIN PCINT23
+#define PC_TORCH_ON_INPUT PC_INP_1
 
 
 /* PC_OUT_* are Atmega outputs, PC inputs */
@@ -23,11 +25,13 @@
 #define PC_OUT_4 12 
 #define PC_OUT_5 9 
 
+#define PC_READY_OUT 13
 
-#define PC_Z_UP_OUTPUT PC_OUT_1
-#define PC_Z_DOWN_OUTPUT PC_OUT_2
-#define PC_ARC_OK_OUTPUT PC_OUT_3
-#define PC_CYCLE_START_OUTPUT PC_OUT_4
+#define PC_Z_UP_OUTPUT PC_OUT_4
+#define PC_Z_DOWN_OUTPUT PC_OUT_3
+#define PC_ARC_OK_OUTPUT PC_OUT_1
+
+#define PC_CYCLE_START_OUTPUT PC_OUT_2
 #define PC_FEED_HOLD_OUTPUT PC_OUT_5
 
 
@@ -45,4 +49,14 @@ void pc_init();
 void pc_step();
 void pc_print_io_status();
 void pc_debug_mode();
+
+#define PC_CP_FREQ_LOW 8000
+#define PC_CP_FREQ_HIGH 12000
+//returns true if PC's ChargePump frequency is between PC_CP_FREQ_LOW and
+//PC_CP_FREQ_HIGH
+
+bool pc_ready();
+
+//needs to be called once in 250ms.
+void pc_update_flag();
 #endif 
