@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = svētdiena, 2014. gada  2. februāris, plkst. 23 un 32
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 11 Feb 2014 02:16:19 PM EET
 
 BeginCmp
 TimeStamp = /52EEA39D/52EEA936;
@@ -179,14 +179,14 @@ BeginCmp
 TimeStamp = /52EEA39D/52EEA9D2;
 Reference = IC2;
 ValeurCmp = 4N25;
-IdModule  = DIP6;
+IdModule  = DIP-6__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEA39D/52EEAD07;
 Reference = IC3;
 ValeurCmp = 4N25;
-IdModule  = DIP6;
+IdModule  = DIP-6__300_ELL;
 EndCmp
 
 BeginCmp
@@ -416,7 +416,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEA39D/52EEA769;
 Reference = R29;
-ValeurCmp = 400R;
+ValeurCmp = 38K;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
@@ -474,6 +474,13 @@ TimeStamp = /52EEA39D/52EEA3A5;
 Reference = U8;
 ValeurCmp = ISOL_PWR;
 IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEA39D/52EEA7C4;
+Reference = U9;
+ValeurCmp = LM358;
+IdModule  = DIP-8__300_ELL;
 EndCmp
 
 EndListe
