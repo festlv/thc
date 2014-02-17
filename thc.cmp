@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 11 Feb 2014 02:16:19 PM EET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 14 Feb 2014 11:08:03 AM EET
 
 BeginCmp
 TimeStamp = /52EEA39D/52EEA936;
@@ -89,13 +89,6 @@ TimeStamp = /52BF7646;
 Reference = CON1;
 ValeurCmp = BARREL_JACK;
 IdModule  = BARREL_JACK;
-EndCmp
-
-BeginCmp
-TimeStamp = /52EEA26B;
-Reference = D1;
-ValeurCmp = 5v1 ZENER;
-IdModule  = D3;
 EndCmp
 
 BeginCmp
@@ -473,7 +466,7 @@ BeginCmp
 TimeStamp = /52EEA39D/52EEA3A5;
 Reference = U8;
 ValeurCmp = ISOL_PWR;
-IdModule  = SIL-4;
+IdModule  = MCE_DIP;
 EndCmp
 
 BeginCmp
