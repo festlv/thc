@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 14 Feb 2014 11:08:03 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = otrdiena, 2014. gada 18. februāris, plkst. 00 un 02
 
 BeginCmp
 TimeStamp = /52EEA39D/52EEA936;
@@ -92,6 +92,13 @@ IdModule  = BARREL_JACK;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EEA39D/530289CF;
+Reference = D1;
+ValeurCmp = 5v1 ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
 TimeStamp = /52BA359D;
 Reference = D2;
 ValeurCmp = 1N4007;
@@ -151,6 +158,20 @@ BeginCmp
 TimeStamp = /52EEA2D5;
 Reference = D10;
 ValeurCmp = 5v1 ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEA39D/53028A51;
+Reference = D11;
+ValeurCmp = 12v1 ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEA39D/53028AD8;
+Reference = D12;
+ValeurCmp = 12v1 ZENER;
 IdModule  = D3;
 EndCmp
 
@@ -360,7 +381,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEA39D/52EEA52E;
 Reference = R22;
-ValeurCmp = 75K;
+ValeurCmp = 47k;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
@@ -409,7 +430,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEA39D/52EEA769;
 Reference = R29;
-ValeurCmp = 38K;
+ValeurCmp = 47k;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
