@@ -12,7 +12,6 @@ zchange=30
 mill-feed=200
 mill-speed=30000
 extra-passes=1
-#drill-front=1
 metric=1
 offset=0.15
 
@@ -22,11 +21,10 @@ cut-feed=50
 cut-speed=10000
 cut-infeed=2
 # parameters for cutting out boards
-#drill-front=1
 # drilling parameters
 zdrill=-2.5
 drill-feed=300
 drill-speed=20000
-smooth=1
+#smooth=1
 dpi=4000
 #mirror-absolute=1

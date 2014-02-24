@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = otrdiena, 2014. gada 18. februāris, plkst. 00 un 02
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 24 Feb 2014 04:13:00 PM EET
 
 BeginCmp
 TimeStamp = /52EEA39D/52EEA936;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /52EEA39D/52EEAD15;
 Reference = Q1;
 ValeurCmp = BC547;
-IdModule  = TO92;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
@@ -402,7 +402,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEA39D/52EEAD0D;
 Reference = R25;
-ValeurCmp = 230R;
+ValeurCmp = 100R;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 

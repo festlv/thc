@@ -1,4 +1,3 @@
-( pcb2gcode 1.1.4 )
 
 G94     ( Inches per minute feed rate. )
 G20     ( Units == INCHES.             )
@@ -6,7 +5,6 @@ G90     ( Absolute coordinates.        )
 S10000  ( RPM spindle speed.           )
 M3      ( Spindle on clockwise.        )
 
-G64 P0.00125 ( set maximum deviation from commanded toolpath )
 
 G00 X-0.064500 Y0.002029
 F1.968504
@@ -22,4 +20,5 @@ G01 Z-0.070866
 
  Y0.002029
 G00 Z0.039370
-M2
+M5
+G21
