@@ -39,12 +39,12 @@ bool plasma_arc_ok() {
 }
 
 void plasma_torch_enable() {
-    digitalWrite(PLASMA_TORCH_ON_PIN, HIGH);
+    digitalWrite(PLASMA_TORCH_ON_PIN, LOW);
     plasma_torch_state = true;
 }
 
 void plasma_torch_disable() {
-    digitalWrite(PLASMA_TORCH_ON_PIN, LOW);
+    digitalWrite(PLASMA_TORCH_ON_PIN, HIGH);
     plasma_torch_state = false;
 }
 

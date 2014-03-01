@@ -171,20 +171,6 @@ void pc_step() {
     } else {
         digitalWrite(PC_READY_OUT, LOW);
     }
-    
-    digitalWrite(PC_OUT_1, HIGH);
-    digitalWrite(PC_OUT_2, HIGH);
-    digitalWrite(PC_OUT_3, HIGH);
-    digitalWrite(PC_OUT_4, HIGH);
-    digitalWrite(PC_OUT_5, HIGH);
-    delay(5);
-    digitalWrite(PC_OUT_1, LOW);
-    digitalWrite(PC_OUT_2, LOW);
-    digitalWrite(PC_OUT_3, LOW);
-    digitalWrite(PC_OUT_4, LOW);
-    digitalWrite(PC_OUT_5, LOW);
-    delay(5);
-
 }
 
 
