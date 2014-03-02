@@ -36,10 +36,10 @@
 
 
 //How long after pierce is it safe to measure average voltage
-#define PC_PIERCE_DELAY_TIME 1000
+#define PC_PIERCE_DELAY_TIME 2000
 
 //How long (in ms) should we measure voltage to compute average?
-#define PC_VOLTAGE_AVG_TIME 100
+#define PC_VOLTAGE_AVG_TIME 500
 
 //Hysteresis value around average voltage
 //e.g. AVG = 80.0, current = 79.5 == no action
