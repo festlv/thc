@@ -37,11 +37,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "noname.sch"
+Title "Sensor board for torch height controller"
 Date "2 feb 2014"
-Rev ""
+Rev "2"
 Comp ""
-Comment1 ""
+Comment1 "License: GPL v3"
 Comment2 ""
 Comment3 ""
 Comment4 ""
